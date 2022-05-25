@@ -1,0 +1,34 @@
+---------1 time ----------./a.out input1.txt 1 output.txt 1 
+siriako 1 time
+TIME ELAPSED 0.000072s
+
+
+tbb 1 time
+TIME ELAPSED 0.001436s 
+
+
+-------2 times ------ " ./a.out input1.txt 2 output.txt 2 " 
+Siriako 2  times 
+TIME ELAPSED 0.000119s 
+
+
+Tbb 2  times 
+TIME ELAPSED 0.003107s 
+
+
+-------4 times ------ " ./a.out input1.txt 4 output.txt 4 "
+siriako 4 times 
+TIME ELAPSED 0.000470s 
+
+tbb 4 times 
+TIME ELAPSED 0.003090s 
+----------------------------------------------------------
+
+
+
+---------100 times-------------------- 
+Tbb 100
+TIME ELAPSED 5.507726s 
+
+Siriako 100
+TIME ELAPSED 5.522325s 
