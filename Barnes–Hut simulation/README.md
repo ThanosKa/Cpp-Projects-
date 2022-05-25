@@ -9,6 +9,8 @@ for running your a.out  write on stdin:
 
 **The inputfile must have the  structure:** 
 
+```
 1st line is the number of  particles N
 2nd line is the R of universe 
 The rest are  planets(x,y,vx,vy,mass,name) 
+```
